@@ -28,8 +28,9 @@ public class A {
 	    element.sendKeys("BrowserStack");
 	    element.submit();
 	    System.out.println(driver.getTitle());
-	  
+	  System.out.println("Done.....");
 	    driver.quit();
+	    
 	  }
 
 }
