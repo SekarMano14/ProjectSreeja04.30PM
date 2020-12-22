@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.681687">
+<testcase classname="To validate the login functionality of Facebook" name="To validate fb login with invalid credientials" time="19.681687">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.stepdefinition.LoginSteps.the_user_sshould_be_in_invalid_login_Page(LoginSteps.java:38)&#13;&#10;&#9;at ✽.The user sshould be in invalid login Page(file:src/test/resources/Features/login.feature:9)&#13;&#10;"><![CDATA[Given The user should be in Fblogin page....................................passed
+When The has to be fill "manoj" and "1252"..................................passed
+And The user has to click login button......................................passed
+Then The user sshould be in invalid login Page..............................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinition.LoginSteps.the_user_sshould_be_in_invalid_login_Page(LoginSteps.java:38)
+	at ✽.The user sshould be in invalid login Page(file:src/test/resources/Features/login.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

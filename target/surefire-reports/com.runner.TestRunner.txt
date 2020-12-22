@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.023 sec <<< FAILURE!
+To validate fb login with invalid credientials(To validate the login functionality of Facebook)  Time elapsed: 19.68 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinition.LoginSteps.the_user_sshould_be_in_invalid_login_Page(LoginSteps.java:38)
+	at ?.The user sshould be in invalid login Page(file:src/test/resources/Features/login.feature:9)
+
